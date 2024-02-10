@@ -1,0 +1,48 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p.Info{
+    font-weight: bold;
+    font-size: 15px;
+    color: #01dd9b;
+}
+
+/* Responsive design using media queries */
+@media only screen and (min-width: 600px) {
+    /* Styles for tablets and larger devices */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* Styles for desktops */
+    section {
+        width: 33.33%;
+    }
+}
