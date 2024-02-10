@@ -73,17 +73,37 @@ p#my-resume{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 /* Responsive design using media queries */
-@media only screen and (min-width: 375px) {
-    /* Styles for tablets and larger devices */
+@media only screen and (min-width: 280px) {
+    /* Styles for smartphone */
     main {
         display: flex;
         flex-wrap: wrap;
     }
 
     section {
-       margin-left: 1%;
+        display: flex;
+        justify-content: center;
         }
-
+        h2.headerbtn1{
+            margin-left: 1px;
+            margin-right: 1px;
+            background-color: #333; 
+            border: none;
+            color: white;
+            padding: 2% 4%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 75%;
+            border-radius: 12px;
+            transition: 0.5s;
+        }
+        
+        h2.headerbtn1:hover{
+            background-color: #4e4e4e; 
+            transition: 0.5s;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
 
 }
 
@@ -91,30 +111,35 @@ p#my-resume{
     /* Styles for desktops */
     section {
         width: 20%;
+        display: flex;
+        justify-content: center;
     }
 
     section.btn{
+        display: flex;
+        justify-content: center;
         width: 100%;
         color: #333;
     }
+    h2.headerbtn1{
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: #333; 
+        border: none;
+        color: white;
+        padding: 15px 7%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        border-radius: 12px;
+        transition: 0.5s;
+    }
+    
+    h2.headerbtn1:hover{
+        background-color: #4e4e4e; 
+        transition: 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
 
-}
-
-h2.headerbtn1{
-    background-color: #333; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-    transition: 0.5s;
-}
-
-h2.headerbtn1:hover{
-    background-color: #4e4e4e; 
-    transition: 0.5s;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
