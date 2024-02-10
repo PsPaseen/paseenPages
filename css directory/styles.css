@@ -1,4 +1,24 @@
 /* General styles */
+section#face{
+    margin-top: 2%;
+    justify-content: center;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#imgface{
+    width: 150px;
+    height: 180px;
+}
+
+section#homepage , section#my-resume , section#my-showcase , section#tu-life {
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 1%;
+}
+
 a{
     color: #fff
 }
@@ -51,7 +71,8 @@ h2.btnName1:hover{
 }
 
 p#homepage{
-    margin-left: 2%;
+    margin-right:auto;
+    margin-left:auto;
     padding: 3%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
