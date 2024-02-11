@@ -2,6 +2,10 @@
     box-sizing: border-box;
   }
 
+  p.textshow{
+    color: black;
+  }
+
   a{
     color: #ffffff;
   }
