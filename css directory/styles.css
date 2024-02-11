@@ -1,6 +1,6 @@
 /* General styles */
 section#face{
-    margin-top: 2%;
+    margin-top: 4%;
     justify-content: center;
     text-align:center;
     margin-right:auto;
@@ -33,16 +33,6 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 p.Info{
@@ -96,16 +86,11 @@ p#my-resume{
 /* Responsive design using media queries */
 @media only screen and (min-width: 280px) {
     /* Styles for smartphone */
-    main {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     section {
-        display: flex;
-        justify-content: center;
+        display: grid;
         }
         h2.headerbtn1{
+            width: auto;
             margin-left: 1px;
             margin-right: 1px;
             background-color: #333; 
@@ -116,8 +101,8 @@ p#my-resume{
             text-decoration: none;
             display: inline-block;
             font-size: 75%;
-            border-radius: 12px;
             transition: 0.5s;
+            margin: 0;
         }
         
         h2.headerbtn1:hover{
@@ -126,10 +111,18 @@ p#my-resume{
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
 
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            position: relative;
+            bottom: 0;
+        }
+
 }
 
 @media only screen and (min-width: 900px) {
-    /* Styles for desktops */
+    /* Styles for desktops*/
     section {
         width: 20%;
         display: flex;
@@ -162,5 +155,52 @@ p#my-resume{
         transition: 0.5s;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 801px)  {
+    /* Styles for tablet test with ipad*/
+    section {
+        display: grid;
+        }
+        h2.headerbtn1{
+            width: 25%;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #333; 
+            border: none;
+            color: white;
+            padding: 1% 2%;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 100%;
+            transition: 0.5s;
+            margin-top: 5px;
+        }
+        
+        h2.headerbtn1:hover{
+            background-color: #4e4e4e; 
+            transition: 0.5s;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
 
 }
