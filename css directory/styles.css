@@ -7,11 +7,6 @@ section#face{
     margin-left:auto;
 }
 
-#imgface{
-    width: 150px;
-    height: 180px;
-}
-
 section#homepage , section#my-resume , section#my-showcase , section#tu-life {
     text-align:center;
     margin-right:auto;
@@ -119,6 +114,16 @@ p#my-resume{
             bottom: 0;
         }
 
+        #imgface{
+            width: 150px;
+            height: 180px;
+        }
+
+        #imgshow{
+            width: 200px;
+            height: 180px;
+        }
+
 }
 
 @media only screen and (min-width: 900px) {
@@ -165,6 +170,16 @@ p#my-resume{
         width: 100%;
     }
 
+    #imgface{
+        width: 300px;
+        height: 360px;
+    }
+
+    #imgshow{
+        width: 400px;
+        height: 360px;
+    }
+
 }
 
 @media only screen and (min-width: 801px)  {
@@ -202,5 +217,16 @@ p#my-resume{
             bottom: 0;
             width: 100%;
         }
+
+        #imgface{
+            width: 300px;
+            height: 360px;
+        }
+
+        #imgshow{
+            width: 400px;
+            height: 360px;
+        }
+    
 
 }
