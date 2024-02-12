@@ -66,7 +66,7 @@
   
   .menu li:hover {
     transition: 0.5s;
-    background-color: #0e0e0e;
+    background-color: #6f6f6f;
   }
   
   .aside {
@@ -81,7 +81,7 @@
 
   .aisde:hover{
     transition: 0.5s;
-    background-color: #0e0e0e;
+    background-color: #6e6e6e;
   }
   
   .footer {
@@ -132,6 +132,7 @@
       display: flex;
       padding: 1%;
       margin-bottom: 10px;
+      gap: 10px;
     }
 
     .line{
